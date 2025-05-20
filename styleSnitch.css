@@ -1,0 +1,535 @@
+* {
+    height: auto;
+    width: 100pxpx;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    margin-right: 0px;
+
+}
+
+#header1 {
+
+    height: 60px;
+    width: 1400px;
+}
+
+#header2 {
+    background-color: #D7D3BF;
+    height: 25px;
+    width: 1517px;
+    /*2ndborder*/
+    padding: 10.5px;
+    display: flex;
+    align-items: center;
+}
+
+#sells {
+    margin-left: 914px;
+}
+
+.panel {
+    display: flex;
+    justify-content: space-between;
+    width: 1419px;
+}
+
+.panel-all {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    color: #333;
+
+}
+
+.panel-op {
+    display: flex;
+    gap: 15px;
+}
+
+.panel-op p {
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.panel-op p:hover {
+    background-color: #525B44;
+    border-radius: 5px transparent;
+    color: #f0f0f0;
+}
+
+
+.Navbar {
+    width: 240px;
+    height: 60px;
+    background-color: #84827d;
+    color: #1B1833;
+    display: flex;
+    align-items: center;
+}
+
+.nav-address {
+    margin-left: 20px;
+
+}
+
+.navlogo {
+    height: 55px;
+    width: 200px;
+}
+
+.logo {
+    background-image: url("SNITCH_LOGO.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    margin-right: 200px;
+}
+
+.border {
+
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 1s ease, color 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.border:hover {
+    background-color: #A59D84;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+/* add1,2 */
+.add1 {
+
+    width: 40px;
+    color: #525B44;
+    font-size: 0.50rem;
+    margin-left: 11px;
+
+}
+
+.add2 {
+    color: #1F4529;
+    margin-left: 5px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    background-color: red;
+}
+
+.navsearch {
+    display: flex;
+    width: 1238px;
+    /*1st border*/
+    height: 25px;
+
+
+}
+
+.searchselect {
+    display: flex;
+    background-color: #E4E0E1;
+    border: none;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.srearchip {
+    width: 700px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: inset;
+}
+
+.searchicon {
+    display: flex;
+    border: none;
+    color: #DCE4C9;
+}
+
+.nav-signin {
+
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: #1A1A1D;
+    font-size: 20px;
+
+
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+#signinlogo {
+    margin-right: 7px;
+
+}
+
+.wishlist {
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.cart {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.frontimg {
+    background-image: url("BUDGET-STORE-PC-2X._CB539168342_.jpg");
+    width: 1519px;
+    /*3rdborder */
+    width: 1538px;
+    height: 300px;
+    margin-bottom: 1px;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.frontimg-message {
+    background-color: #D7D3BF;
+    font-size: 1.1rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+.frontimg-message a {
+    color: rgb(62, 52, 125);
+}
+
+.frontsection {
+    width: 1500px;
+    margin-bottom: 15px;
+}
+
+.shopsection {
+
+
+    margin-top: 10px;
+    display: flex;
+    width: 1450px;
+    margin-left: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 50px;
+    background-color: rgb(189, 183, 183);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 25%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+
+
+}
+
+.box-image:hover {
+    transition-timing-function: steps(2);
+    transform: scale(1.1);
+    filter: brightness(1.1);
+    transition: all 1.2s ease-out;
+    box-shadow: 0 8px 10px rgba(67, 66, 66, 0.8);
+    border: 1px solid rgb(175, 171, 171);
+}
+
+.box-image {
+
+    border-radius: 5px;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box2 {
+    margin-left: 70px;
+}
+
+.box3 {
+    margin-left: 10px;
+}
+
+.box4 {
+    margin-left: 30px;
+}
+
+.box5 {
+    margin-left: 10px;
+}
+
+.second-stage {
+    width: 1538px;
+    margin-top: 30px;
+    display: flex;
+
+}
+
+.second-stage img {
+    height: 250px;
+    width: 1300px;
+    margin-left: 120px;
+    border-radius: 5px;
+}
+
+
+
+.offer {
+    margin-top: 10px;
+
+    margin-left: 40px;
+    width: 1470px;
+    display: flex;
+
+
+}
+
+.container-offer {
+    justify-content: space-evenly;
+    height: 160px;
+    width: 1500px;
+    display: flex;
+    gap: 200px;
+    margin-left: 0px;
+}
+
+.offerhai {
+    background-color: #D7D3BF;
+    margin-top: 10px;
+    display: flex;
+    width: 1450px;
+    margin-left: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boxx {
+    height: 50px;
+    background-color: rgb(189, 183, 183);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 25%;
+    height: 400px;
+    display: flex;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+.boxx-image:hover {
+    transition-timing-function: steps(2);
+    transform: scale(1.1);
+    filter: brightness(1.1);
+    transition: all 1.2s ease-out;
+    box-shadow: 0 8px 10px rgba(67, 66, 66, 0.8);
+    border: 1px solid rgb(175, 171, 171);
+}
+
+.boxx-image {
+
+    border-radius: 5px;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cashback {
+    margin-top: 15px;
+}
+
+.container {
+
+    width: 1400px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    margin-left: 45px;
+
+}
+
+.recommendations {
+    font-size: 24px;
+    color: #333;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+.sign-in-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #111;
+    background-color: #f0c14b;
+    border: 1px solid #a88734;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sign-in-button:hover {
+    background-color: #b69533;
+    transition: all ease-in;
+
+}
+
+.new-customer {
+    font-size: 14px;
+    color: #0066c0;
+}
+
+.new-customer a {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.new-customer a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #D7D3BF;
+    width: 1550px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.signup-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-section form {
+    margin-top: 10px;
+}
+
+.signup-section input {
+    padding: 10px;
+    width: 250px;
+}
+
+.signup-section button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media img {
+    width: 24px;
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.logo-container {
+    width: 200px;
+    /* The width of the container */
+    height: 50px;
+    /* The height of the container */
+    /* Ensures the image doesn't overflow the container */
+    display: flex;
+    /* Centers the logo horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+    /* Optional background color for contrast */
+    margin-left: 775px;
+}
