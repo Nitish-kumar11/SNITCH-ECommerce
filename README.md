@@ -2,7 +2,8 @@
 
 This is a responsive clothing e-commerce website built using **HTML** and **CSS**. It showcases various fashion categories for men and women, complete with seasonal favorites, offers, and best-selling sections.
 
-![SNITCH-Ecommerce](https://github.com/user-attachments/assets/97e6afc6-4d6d-42ee-b5c9-9b4cbbc3e6c3)
+![SNITCH-Ecommerce](https://github.com/user-attachments/assets/af23c550-b80e-4b99-ba31-d9b7ea63e2a0)
+
 
 
 ## Features
@@ -25,6 +26,7 @@ To run this project locally:
 
 1. Clone the repository:
    ```bash
+git clone https://github.com/Nitish-kumar11/SNITCH-ECommerce.git
 
 
 
